@@ -1,9 +1,12 @@
 {
+  "homepage": "https://DjKarter.github.io/HW_last_try",
   "name": "yarn_sucks",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    "predepliy" : "npm run build:",
+    "deploy" : "gh-pages -d dist",
     "dev": "vite",
     "fix": "npx eslint . --ext .js,.jsx,.ts,.tsx --fix",
     "build": "tsc && vite build",
